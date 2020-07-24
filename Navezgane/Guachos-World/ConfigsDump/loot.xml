@@ -4360,7 +4360,7 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 
 <!-- cntWaterCoolerFull -->
 <lootcontainer id="99" count="0,1" size="6,2" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="qualBaseTemplate">
-	<item name="drinkJarPureMineralWater" count="1,4" />
+	<item name="drinkJarPureMineralWater" count="1,2" />
 </lootcontainer>
 
 <!-- "bag" container that gets dropped when a zombie gore block is destroyed but still contained loot
@@ -4598,7 +4598,7 @@ treasureTemplate
 </lootcontainer>
 
 <!-- cntShoesPileSneakers etc. -->
-<lootcontainer id="134" count="1" size="6,2" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="134" count="1" size="6,2" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
 	<item group="groupApparelShoesAll" />
 </lootcontainer>
 

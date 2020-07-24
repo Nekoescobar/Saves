@@ -1848,6 +1848,10 @@ onSelfDestroyedBlock && onSelfDamagedBlock were not yet
 			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$cumResistChanceCH" operation="set" value="0" />
 			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$cumResistChanceCH" operation="set" value="0" />
 
+			<!-- bonus hit on the first one -->
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$cumResistChanceCH" operation="add" value=".12">
+				<requirement name="CVarCompare" cvar="$cumResistChanceCH" operation="Equals" value="0" />
+			</triggered_effect>
 			<!-- every hit will beat down the value this much -->
 			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$cumResistChanceCH" operation="add" value=".19" />
 			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$cumResistChanceCH" operation="set" value="1.1">

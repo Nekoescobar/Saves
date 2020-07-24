@@ -17734,6 +17734,7 @@ perkNightStalkerSilentNight
 
 <item name="toolAnvil">
 	<property name="UnlockedBy" value="toolAnvilSchematic" />
+	<property name="Tags" value="toolAnvil" />
 	<property name="HoldType" value="45" />
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -17745,8 +17746,9 @@ perkNightStalkerSilentNight
 	<property name="DisplayType" value="toolAnvil" />
 	<property name="ItemTypeIcon" value="forge" />
 	<effect_group tiered="false">
-		<passive_effect name="CraftingTime" operation="perc_add" value="-.333" />
-		<display_value name="dCraftingTime" value=".5" />
+		<requirement name="!HoldingItemHasTags" tags="toolAnvil" />
+			<passive_effect name="CraftingTime" operation="perc_add" value="-.333" />
+			<display_value name="dCraftingTime" value=".5" />
 	</effect_group>
 </item>
 
