@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <persistentplayerdata>
-	<player id="76561198055164282" lastlogin="2020-08-01 17:49:42">
+	<player id="76561198055164282" lastlogin="2020-08-02 17:32:32">
 		<acl id="76561198076063989"/>
 		<acl id="76561198067294306"/>
 		<lpblock pos="811,59,737"/>
-		<bedroll pos="1506,78,728"/>
 	</player>
 	<player id="76561198076063989" lastlogin="2020-08-02 01:09:35">
 		<acl id="76561198067294306"/>
