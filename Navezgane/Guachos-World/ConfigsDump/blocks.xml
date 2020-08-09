@@ -25615,6 +25615,7 @@ NOT the TextureNumber.
 	<property name="MultiBlockDim" value="2,2,6" />
 	<property name="ShowModelOnFall" value="false" />
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble" />
+	<drop event="Harvest" name="resourceMetalPipe" count="5" prob="0.5" tag="salvageHarvest" />
 	<drop event="Harvest" name="ammoGasCan" count="50,500" tag="salvageHarvest" />
 	<drop event="Harvest" name="resourceHeadlight" count="1" prob="0.45" tag="salvageHarvest" />
 	<drop event="Harvest" name="resourceScrapPolymers" count="2,7" tag="salvageHarvest" />
@@ -25874,6 +25875,7 @@ NOT the TextureNumber.
 	<drop event="Harvest" name="resourceElectricParts" count="1,5" tag="salvageHarvest" />
 	<drop event="Harvest" name="resourceHeadlight" count="1,2" tag="salvageHarvest" />
 	<drop event="Harvest" name="resourceMechanicalParts" count="7,20" tag="salvageHarvest" />
+	<drop event="Harvest" name="resourceMetalPipe" count="5" prob="0.5" tag="salvageHarvest" />
 	<drop event="Harvest" name="resourceOil" count="0,3" tag="salvageHarvest" />
 	<drop event="Harvest" name="resourceRadiator" count="1" tag="salvageHarvest" />
 	<drop event="Harvest" name="resourceScrapPolymers" count="8,22" tag="salvageHarvest" />
