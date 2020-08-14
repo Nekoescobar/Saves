@@ -659,7 +659,7 @@
 			<label depth="3" name="windowName" pos="42,-6" width="250" height="32" text="INVENTORY" text_key="xuiInventory" font_size="32" />
 
 
-			<rect pos="303,0" width="300" controller="ContainerStandardControls">
+			<rect pos="303,0" width="300" controller="ContainerStandardControls" move_start_bottom_left="true">
 				<button depth="3" name="btnClearInventory" sprite="ui_game_symbol_trash" tooltip_key="lblClearInventory" pos="200, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" visible="{creativewindowopen}" />
 
 				<button depth="3" name="btnSort" sprite="ui_game_symbol_sort" tooltip_key="lblSortContainer" pos="0, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" />

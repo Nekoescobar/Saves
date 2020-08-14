@@ -146,7 +146,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<Precipitation min="50" max="100" prob=".75" />
 			<Wind min="20" max="40" prob="0.9" />
 			<Wind min="40" max="100" prob="0.1" />
-			<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="80" />
+			<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="7" />
 		</weather>
 		<replacements> <!-- This affects only the grow event of blocks/plants. Grown blocks of one type are auto-replaced by the second. -->
 			<replace source="treeTallGrassDiagonal" target="treeSnowyGrassDiagonal" />
@@ -517,7 +517,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<Precipitation min="50" max="100" prob=".75" />
 			<Wind min="10" max="20" prob="0.9" />
 			<Wind min="20" max="100" prob="0.1" />
-			<ParticleEffect prefab="ParticleEffects/p_sandstorm" ChunkMargin="80" />
+			<ParticleEffect prefab="ParticleEffects/p_sandstorm" ChunkMargin="7" />
 		</weather>
 
 		<subbiome prob="0.09"> <!-- Desert Sub Biome Clustered Cactus and Desert Shrub -->
@@ -1148,7 +1148,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<Wind min="20" max="100" prob="0.1" />
 			<Precipitation min="0" max="0" prob=".0" />
 			<Precipitation min="50" max="100" prob=".75" />
-			<ParticleEffect prefab="ParticleEffects/p_smokestorm" ChunkMargin="80" />
+			<ParticleEffect prefab="ParticleEffects/p_smokestorm" ChunkMargin="7" />
 		</weather>
 
 		<subbiome prob="0.02"> <!-- Burnt Forest Sub Biome -->

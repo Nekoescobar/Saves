@@ -19370,6 +19370,7 @@ NOT the TextureNumber.
 <block name="radiatorHouse01">
 	<property name="Extends" value="radiatorHouse01Player" />
 	<drop event="Destroy" name="resourceRadiator" count="1" tag="salvageHarvest" tool_category="Disassemble" />
+	<drop event="Harvest" name="terrStone" count="0" tag="salvageHarvest" tool_category="Disassemble" />
 </block>
 
 <block name="cntTrashCompactor">
@@ -21065,8 +21066,8 @@ NOT the TextureNumber.
 	<property name="FilterTags" value="fdecor,ffurniture" />
 	<property name="Group" value="Decor/Miscellaneous" />
 	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc" />
-	<property name="Class" value="Loot" />
-	<property name="LootList" value="143" />
+	<!--<property name="Class" value="Loot"/>-->
+	<!--<property name="LootList" value="143"/>-->
 </block>
 
 <block name="wineBarrelSet">

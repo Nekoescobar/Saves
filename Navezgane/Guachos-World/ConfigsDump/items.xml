@@ -10315,7 +10315,7 @@ perkNightStalkerSilentNight
 </item>
 
 <item name="apparelCigar">
-	<property name="Tags" value="head,noMods" />
+	<property name="Tags" value="head,clothing,noMods" />
 	<property name="DisplayType" value="clothingCigar" />
 	<property name="UnlockedBy" value="perkUrbanCombatCigar" />
 	<property name="Material" value="Mplants" />
@@ -10344,7 +10344,7 @@ perkNightStalkerSilentNight
 
 <item name="apparelCigarette">
 	<property name="Extends" value="apparelCigar" />
-	<property name="Tags" value="head" />
+	<property name="Tags" value="head,clothing" />
 	<property class="UMA">
 		<property name="Mesh" value="cigarette" />
 		<property name="Overlay0" value="cigarette" />
@@ -12756,8 +12756,8 @@ perkNightStalkerSilentNight
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
 	<property name="Material" value="Mplants" />
 	<property name="Stacknumber" value="10" /> <!-- STK resource -->
-	<property name="EconomicValue" value="92" />
-	<property name="EconomicBundleSize" value="5" />
+	<property name="EconomicValue" value="250" />
+	<property name="EconomicBundleSize" value="1" />
 	<property name="CraftingIngredientTime" value="10" />
 	<!-- 14 is large round hold -->
 	<property name="UnlockedBy" value="perkMasterChef,foodGumboStewSchematic" />
@@ -12786,8 +12786,8 @@ perkNightStalkerSilentNight
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
 	<property name="Material" value="Mplants" />
 	<property name="Stacknumber" value="10" /> <!-- STK resource -->
-	<property name="EconomicValue" value="92" />
-	<property name="EconomicBundleSize" value="5" />
+	<property name="EconomicValue" value="250" />
+	<property name="EconomicBundleSize" value="1" />
 	<property name="CraftingIngredientTime" value="10" />
 	<!-- 14 is large round hold -->
 	<property name="UnlockedBy" value="perkMasterChef,foodShepardsPieSchematic" />
@@ -12815,8 +12815,8 @@ perkNightStalkerSilentNight
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
 	<property name="Material" value="Mplants" />
 	<property name="Stacknumber" value="10" /> <!-- STK resource -->
-	<property name="EconomicValue" value="92" />
-	<property name="EconomicBundleSize" value="5" />
+	<property name="EconomicValue" value="250" />
+	<property name="EconomicBundleSize" value="1" />
 	<property name="CraftingIngredientTime" value="10" />
 	<property name="UnlockedBy" value="perkMasterChef,foodSpaghettiSchematic" />
 	<property class="Action0">
@@ -12843,8 +12843,8 @@ perkNightStalkerSilentNight
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
 	<property name="Material" value="Mplants" />
 	<property name="Stacknumber" value="10" /> <!-- STK resource -->
-	<property name="EconomicValue" value="92" />
-	<property name="EconomicBundleSize" value="5" />
+	<property name="EconomicValue" value="250" />
+	<property name="EconomicBundleSize" value="1" />
 	<property name="CraftingIngredientTime" value="10" />
 	<!-- 14 is large round hold -->
 	<property name="UnlockedBy" value="perkMasterChef,foodTunaFishGravyToastSchematic" />
