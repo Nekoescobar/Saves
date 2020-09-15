@@ -1432,7 +1432,7 @@
 
 <entity_class name="zombieBusinessMan" extends="zombieTemplateMale">
 	<property name="Tags" value="entity,zombie,walker" />
-	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardSuitRagdoll.prefab" />
+	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardSuitHDRagdoll.prefab" />
 	<property name="AvatarController" value="AvatarZombie01Controller" />
 	<property name="ModelType" value="Standard" />
 	<property name="WalkType" value="7" />
@@ -1449,7 +1449,7 @@
 
 <entity_class name="zombieBusinessManFeral" extends="zombieBusinessMan">
 	<property name="Tags" value="entity,zombie,walker,feral" />
-	<property name="ReplaceMaterial2" value="#Entities/Zombies?Zombies/Materials/feral_eye.mat" />
+	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardSuitHDFeralRagdoll.prefab" />
 
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".7" /><property name="DismemberMultiplierArms" value=".7" /><property name="DismemberMultiplierLegs" value=".7" /><!-- Feral -->
@@ -1472,7 +1472,7 @@
 <entity_class name="legendaryZombieBusinessMan" extends="zombieBusinessMan">
 	<property name="Tags" value="entity,zombie,walker,boss" />
 	<!-- <property name="Buffs" value="buffLegendaryBoss"/> -->
-	<property name="ReplaceMaterial2" value="#Entities/Zombies?Zombies/Materials/feral_eye.mat" />
+	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardSuitHDRadiatedRagdoll.prefab" />
 	<property name="HandItem" value="meleeHandZombieFeral" />
 	<property name="DismemberMultiplierHead" value=".4" /><property name="DismemberMultiplierArms" value=".4" /><property name="DismemberMultiplierLegs" value=".4" /><!-- Radiated -->
 	<property name="PainResistPerHit" value=".9" /><!-- Radiated -->
@@ -1746,7 +1746,7 @@
 
 <entity_class name="zombieFatHawaiianFeral" extends="zombieFatHawaiian">
 	<property name="Tags" value="entity,zombie,walker,feral" />
-	<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/feral_eye.mat" />
+	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardHawaiianFeralHDRagdoll.prefab" />
 
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".7" /><property name="DismemberMultiplierArms" value=".7" /><property name="DismemberMultiplierLegs" value=".7" /><!-- Feral -->
@@ -1910,7 +1910,7 @@
 	<property name="SoundHurt" value="Enemies/Base_Zombie_Male2/zombiemale2pain" />
 	<property name="SoundDeath" value="Enemies/Base_Zombie_Male2/zombiemale2death" />
 	<property name="SoundSense" value="Enemies/Base_Zombie_Male2/zombiemale2sense" />
-	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardWorkerRagdoll.prefab" />
+	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardWorkerHDRagdoll.prefab" />
 	<property name="AvatarController" value="AvatarZombie01Controller" />
 	<property name="ModelType" value="Standard" />
 	<property name="WalkType" value="6" />
@@ -1931,7 +1931,7 @@
 
 <entity_class name="zombieUtilityWorkerFeral" extends="zombieUtilityWorker">
 	<property name="Tags" value="entity,zombie,walker,feral" />
-	<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/feral_eye.mat" />
+	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardWorkerHDFeralRagdoll.prefab" />
 
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".7" /><property name="DismemberMultiplierArms" value=".7" /><property name="DismemberMultiplierLegs" value=".7" /><!-- Feral -->
@@ -1955,7 +1955,7 @@
 <entity_class name="legendaryZombieUtilityWorker" extends="zombieUtilityWorker">
 	<property name="Tags" value="entity,zombie,walker,boss" />
 	<!-- <property name="Buffs" value="buffLegendaryBoss"/> -->
-	<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/feral_eye.mat" />
+	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardWorkerHDRadiatedRagdoll.prefab" />
 	<property name="HandItem" value="meleeHandZombieWorkerFeral" />
 	<property name="DismemberMultiplierHead" value=".4" /><property name="DismemberMultiplierArms" value=".4" /><property name="DismemberMultiplierLegs" value=".4" /><!-- Radiated -->
 	<property name="PainResistPerHit" value=".9" /><!-- Radiated -->
@@ -2378,7 +2378,7 @@
 
 <entity_class name="zombieStripper" extends="zombieDarlene">
 	<property name="Tags" value="entity,zombie,walker" />
-	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardStripperRagdoll.prefab" />
+	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardCocktailWaitressHDRagdoll.prefab" />
 
 	<!-- Gameplay -->
 	<property name="HandItem" value="meleeHandZombieStripper" />
@@ -2391,8 +2391,7 @@
 
 <entity_class name="zombieStripperFeral" extends="zombieStripper">
 	<property name="Tags" value="entity,zombie,walker,feral" />
-	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardStripperRagdoll.prefab" />
-	<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/feral_eye.mat" />
+	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardCocktailWaitressFeralHDRagdoll.prefab" />
 
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".7" /><property name="DismemberMultiplierArms" value=".7" /><property name="DismemberMultiplierLegs" value=".7" /><!-- Feral -->

@@ -970,6 +970,16 @@
 		</rect>
 	</prefab_group_edit_entry>
 
+	<prefab_zone_edit_entry>
+		<rect height="${height|30}" width="${width-3|250}" style="press, hover, scroll" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" controller="ListEntry&lt;XUiC_PrefabZonesEditorList.PrefabZoneEntry&gt;">
+			<sprite depth="3" name="backgroundMain" sprite="menu_empty" height="${1+height|31}" pos="2,0" width="${width-4|250}" color="[black]" type="sliced" fillcenter="false" />
+			<sprite depth="2" name="background" color="[darkGrey]" pos="2,0" width="${width-4|250}" type="sliced" />
+			<sprite depth="4" name="tickbox" width="${height-6|26}" height="${height-6|26}" pos="7,-4" color="[darkGrey]" sprite="Highlight - Shadowed" type="sliced" visible="{assigned}" />
+			<sprite depth="5" name="tickmark" width="${height-12|20}" height="${height-12|20}" pos="10,-7" color="[iconColor]" sprite="ui_game_symbol_check" visible="{selected}" />
+			<label depth="4" name="Name" pos="${6+height|38},${Round(-height/2,0)|-15}" width="${width-height-8|242}" height="${height-4|26}" text="{name}" font_size="${height-4|26}" justify="left" pivot="left" />
+		</rect>
+	</prefab_zone_edit_entry>
+
 	<spawners_entry>
 		<rect height="${height|30}" width="${width}" style="press, hover, scroll" on_doubleclick="true" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" controller="ListEntry&lt;XUiC_SpawnersList.SpawnerEntry&gt;">
 			<sprite depth="3" name="backgroundMain" sprite="menu_empty" height="${1+height|31}" pos="2,0" width="${width-4|250}" color="[black]" type="sliced" fillcenter="false" />

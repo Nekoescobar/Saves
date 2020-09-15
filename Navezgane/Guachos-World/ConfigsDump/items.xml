@@ -3369,14 +3369,10 @@ needed?
 	</effect_group>
 
 	<effect_group name="light/douse torch flame" tiered="false">
-			<triggered_effect trigger="onSelfEquipStart" action="RemoveParticleEffectFromEntity" particle="torch02_firePrefab" parent_transform="Side" />
 			<triggered_effect trigger="onSelfEquipStop" action="RemoveParticleEffectFromEntity" particle="torch02_firePrefab" parent_transform="Side" />
 			<triggered_effect trigger="onSelfWaterSubmerge" action="RemoveParticleEffectFromEntity" particle="torch02_firePrefab" parent_transform="Side" />
 			<triggered_effect trigger="onSelfWaterSurface" action="AttachParticleEffectToEntity" particle="torch02_firePrefab" parent_transform="Side" />
 			<triggered_effect trigger="onSelfEquipStart" action="AttachParticleEffectToEntity" particle="torch02_firePrefab" parent_transform="Side">
-				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
-			</triggered_effect>
-			<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachParticleEffectToEntity" particle="torch02_firePrefab" parent_transform="Side">
 				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
 			</triggered_effect>
 	</effect_group>
@@ -10322,7 +10318,7 @@ perkNightStalkerSilentNight
 	<property name="Stacknumber" value="1" />
 	<property name="DegradationBreaksAfter" value="false" />
 	<property name="FuelValue" value="3" />
-	<property name="EconomicValue" value="50" />
+	<property name="EconomicValue" value="500" />
 	<property name="HoldType" value="45" />
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
